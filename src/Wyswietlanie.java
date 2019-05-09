@@ -1,14 +1,10 @@
 public class Wyswietlanie {
     public static void main(String[] args) {
-        Rower rower1 = new Rower();
-        rower1.kolor = "czarny";
-        rower1.marka = "CUBE";
-        rower1.lampki = true;
+        Rower rower1 = new Rower("CUBE", "czarny", true);
 
-        Rower rower2 = new Rower();
-        rower2.kolor = "biały";
-        rower2.marka = "CUBE";
-        rower2.lampki = false;
+
+        Rower rower2 = new Rower("CUBE", "biały", false);
+   
 
 
         System.out.println("Rower1");
